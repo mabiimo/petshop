@@ -1,0 +1,70 @@
+.body {
+  background-color: #000;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+/* Effect kaca pada about me  */
+.kaca {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* Effect kaca pada about me  */
+
+.btn {
+  background-color: #393939;
+  color: #f2ebeb;
+}
+
+.btn {
+  background-color: none;
+  color: #f2ebeb;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.8s;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #f2ebeb;
+  color: #393939;
+}
+
+.aboutme {
+  margin-top: 10;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: solid rgba(255, 255, 255, 0.25);
+}
+.subnav {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.subnav:hover {
+  transform: scale(1.5);
+  color: #fff;
+  font-weight: bold;
+}
+
+.about {
+  background: url(templates/img/animals.png) no-repeat;
+}
+
+/* Card */
+
+/* Card */
